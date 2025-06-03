@@ -1,0 +1,61 @@
+#salario::after{
+    content: "R$";
+    display: none;
+
+}
+#salario:hover::after{
+    display: block;
+}
+#salario:hover span{
+    display: none;
+}
+#salario:hover{
+    background-color: greenyellow;
+}
+#salario::after{
+    content: "R$";
+    display: none;
+}
+
+#portao:hover::after{
+    display: block;
+}
+#portao:hover span{
+    display: none;
+}
+#portao:hover{
+    background-color: gray;
+}
+#portao::after{
+    content: "entre 12 e 60";
+    display: none;
+}
+
+#valor:hover::after{
+    display: block;
+}
+#valor:hover span{
+    display: none;
+}
+#valor:hover{
+    background-color: rgb(202, 83, 83);
+}
+#valor::after{
+    content: "entre 20 e 90";
+    display: none;
+}
+
+#meses:hover::after{
+    display: block;
+}
+#meses:hover span{
+    display: none;
+}
+#meses:hover{
+    background-color: rgb(255, 0, 0);
+}
+#meses:after{
+    content: "janeiro (1) dezembro (12)";
+    display: none;
+    font-size: 11px;
+}

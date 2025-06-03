@@ -1,0 +1,81 @@
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+}
+h2{
+    font-size: 20px;
+    color: aliceblue;
+}
+button{
+    min-height: 75px;
+    max-height: 75px;
+    min-width: 150px;
+    max-width: 150px;
+    padding: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#idadeEmDias::after{
+   content: "Pega sua idade, e mostra qual seria a quantidade de dias";
+   color: brown;
+   display: none;
+}
+#idadeEmDias:hover::after{
+    display: block;
+}
+#idadeEmDias:hover span{
+    display: none;
+}
+
+#valorComida::after{
+    content: "Irá calcular o preço que deves pagar pelo KG da comida";
+    color: brown;
+    display: none;
+}
+#valorComida:hover::after{
+    display: block;
+}
+#valorComida:hover span{
+    display: none;
+}
+
+#diaAno::after{
+    content: "O dia e mês digitado, se converterá aos dias do ano";
+    color: brown;
+    display: none;
+}
+#diaAno:hover::after{
+    display: block;
+}
+#diaAno:hover span{
+    display: none;
+}
+
+#salarioDescontoImpostos::after{
+    content: "Digite o salário, então será adicionado um aumento de 15% e logo será descontado 8% de imposto";
+    color: brown;
+    display: none;
+}
+#salarioDescontoImpostos:hover::after{
+    display: block;
+    font-size: 12px;
+}
+#salarioDescontoImpostos:hover span{
+    display: none;
+}
+
+button:hover{
+    background-color: rgb(234, 245, 255);
+}
+
+body{
+    background-image: url(https://media.scoolinary.app/blog/images/2022/09/scoolinary-cocina-callejera-mexicana.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px
+}
+
+a{
+    color: rgb(1, 24, 1);
+}

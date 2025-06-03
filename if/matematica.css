@@ -1,0 +1,56 @@
+#soma::after{
+    content: "+";
+    display: none;
+}
+#soma:hover::after{
+    display: block;
+}
+#soma:hover span{
+    display: none;
+}
+#soma:hover{
+    background-color: green;
+}
+
+#subtracao::after{
+    content: "-";
+    display: none;
+}
+#subtracao:hover::after{
+    display: block;
+}
+#subtracao:hover span{
+    display: none;
+}
+#subtracao:hover{
+    background-color: brown;
+}
+
+
+#multiplicacao::after{
+    content: "x";
+    display: none;
+}
+#multiplicacao:hover::after{
+    display: block;
+}
+#multiplicacao:hover span{
+    display: none;
+}
+#multiplicacao:hover{
+    background-color: rgb(206, 204, 73);
+}
+
+#divisao::after{
+    content: "/";
+    display: none;
+}
+#divisao:hover::after{
+    display: block;
+}
+#divisao:hover span{
+    display: none;
+}
+#divisao:hover{
+    background-color: rgb(105, 105, 228);
+}

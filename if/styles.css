@@ -1,0 +1,13 @@
+button{
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+#icone{
+    height: 32px;
+    width: 32px;
+}
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.B38JupNhszZM6GRlKXvhPQHaFG?rs=1&pid=ImgDetMain);
+}

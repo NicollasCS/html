@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>matbasica</title>
+        <link rel="shortcut icon" href="https://th.bing.com/th/id/OIP.B38JupNhszZM6GRlKXvhPQHaFG?rs=1&pid=ImgDetMain" type="image/x-icon" id="icone">
+        <link rel="stylesheet" href="styles.css">   <!--Style para o Index.html-->
+        <link rel="stylesheet" href="matematica.css">   <!--Style para os botões de matematica.js-->
+        <link rel="stylesheet" href="outros.css">   <!--Style para os botões que não pertencem à matematica.js ou index.html-->
+    </head>
+    <body>
+        <script src="matematica.js"></script>   <!--Script para os botões de matematica.css-->
+        <script src="script.js"></script>   <!--Script para os botões não pertencentes à matematica.css-->
+        <div>
+            <button type="button" onclick="soma()" id="soma"><span>soma</span></button>
+                <br><br>
+            <button type="button" onclick="subtracao()" id="subtracao"><span>subtração</span></button>
+                <br><br>
+            <button type="button" onclick="multiplicacao()" id="multiplicacao"><span>multiplicação</span></button>
+                <br><br>
+            <button type="button" onclick="divisao()" id="divisao"><span>divisão</span></button>
+                <br><br>
+            <button type="button" onclick="salario()" id="salario"><span>salário</span></button>
+                <br><br>
+            <button type="button" onclick="operadorLogicoPortao()" id="portao"><span>portao</span></button>
+                <br><br>
+            <button type="button" onclick="valor()" id="valor"><span>valor</span></button>
+                <br><br>
+            <button type="button" onclick="meses()" id="meses"><span>meses</span></button>
+        </div>
+    </body>
+</html>
