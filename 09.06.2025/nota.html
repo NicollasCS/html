@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(carpxx.png);
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome=prompt("Digite seu nome: ")
+
+        var nota1=Number(prompt("Digite sua 1° Nota: "))
+        var nota2=Number(prompt("Digite sua 2° Nota: "))
+
+        var media=(nota1+nota2)/2
+
+        if(media >= 6 && media <= 10){
+            alert("Aprovado")
+        }
+        else if(media < 6 && media >= 4){
+            alert("Recuperação")
+        }
+        else if (media < 4 && media >= 0){
+            alert("Reprovado")
+       }
+       else{
+        alert("Valor incorreto")
+       }
+
+    </script>
+</body>
+</html>
